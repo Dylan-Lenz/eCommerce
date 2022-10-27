@@ -10,3 +10,87 @@ html {
     box-sizing: border-box;
     font-size: 62.5% auto;
 }
+
+header {
+    border-bottom-style: inset;
+    border-color: orangered;
+    border-width: 20px;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 80%;
+    align-items: baseline;
+    column-width: auto;
+    justify-items: center;
+    align-content: space-evenly;
+}
+
+header a {
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: larger;
+}
+
+header li {
+    display: inline-flex;
+    font-size: larger;
+}
+
+header form {
+    color: gray;
+}
+
+header img {
+    height: 55px;
+}
+
+.home__effect::before {
+    content: "";
+    background-image: linear-gradient(to right, gray, orangered);
+    position: absolute;
+    height: 1px;
+}
+
+.home__effect:hover::before {
+    content: "Home";
+}
+
+.about__effect::before {
+    content: "";
+    background-image: linear-gradient(to right, gray, orangered);
+    position: absolute;
+    height: 1px;
+}
+
+.about__effect:hover::before {
+    content: "About";
+}
+
+.products__effect::before {
+    content: "";
+    background-image: linear-gradient(to right, gray, orangered);
+    position: absolute;
+    height: 1px;
+}
+
+.products__effect:hover::before {
+    content: "Products";
+}
+
+.contact__effect::before {
+    content: "";
+    background-image: linear-gradient(to right, gray, orangered);
+    position: absolute;
+    height: 1px;
+}
+
+.contact__effect:hover::before {
+    content: "Contact";
+}
