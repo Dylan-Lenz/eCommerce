@@ -119,6 +119,12 @@ header img {
     top: 25%;
 }
 
+.abt__hdr {
+    margin-top: 20%;
+    font-size: 5vw;
+    margin-left: 10%;
+}
+
 .abt__set1 {
     display: grid;
     grid-template-areas: "L R";
@@ -137,18 +143,110 @@ header img {
     justify-content: space-evenly;
 }
 
-.abt__hdr {
-    margin-top: 10%;
-    font-size: 7.5vw;
-    margin-left: 10%;
-}
-
 .about img {
     max-width: 80%;
     max-height: 120%;
 }
 
 .about p {
-    font-size: 3vw;
+    font-size: 2.5vw;
     max-width: 90%;
+}
+
+.cards {
+    display: grid;
+    grid-template-areas:
+        "TL TM TR"
+        "ML MM MR"
+        "BL BM BR";
+    justify-content: space-evenly;
+    padding: 5%;
+}
+
+.products h1 {
+    margin-top: 10%;
+    font-size: 5vw;
+    margin-left: 10%;
+}
+
+.cards img {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 5%;
+}
+
+.cards p {
+    padding: 5%;
+}
+
+.card__one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: lightgrey;
+    padding: 5%;
+}
+
+.card__two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: lightgrey;
+    padding: 5%;
+}
+
+.card__three {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: lightgrey;
+    padding: 5%;
+}
+
+.card__four {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: lightgrey;
+    padding: 5%;
+}
+
+.card__five {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: lightgrey;
+    padding: 5%;
+}
+
+.card__six {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: lightgrey;
+    padding: 5%;
 }
