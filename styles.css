@@ -9,12 +9,13 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+    background-color: whitesmoke;
 }
 
 header {
-    border-bottom-style: groove;
-    border-color: orangered;
-    border-width: 5px;
+    border-bottom-style:inset;
+    border-color: silver;
+    border-width: 2px;
     border-bottom-left-radius: 0%;
     border-bottom-right-radius: 0%;
     background-color: white;
@@ -100,7 +101,7 @@ header img {
 
 .home img {
     max-width: 100%;
-    margin-top: 0%;
+    margin-top: 5%;
 }
 
 .home h1 {
@@ -121,7 +122,7 @@ header img {
 
 .abt__hdr {
     margin-top: 15%;
-    font-size: 5vw;
+    font-size: 10vw;
     margin-left: 10%;
 }
 
@@ -165,8 +166,8 @@ header img {
 
 .products h1 {
     margin-top: 10%;
-    font-size: 5vw;
-    margin-left: 35%;
+    font-size: 10vw;
+    margin-left: 20%;
 }
 
 .cards img {
@@ -177,6 +178,27 @@ header img {
 
 .cards p {
     padding: 5%;
+    font-size: 2vw;
+}
+
+.cards h1 {
+    font-size: 4vw;
+
+}
+
+.cards h2 {
+    font-size: 4vw;
+
+}
+
+.cards a {
+    color: coral;
+}
+
+.cards button {
+    color: white;
+    background-color: coral;
+    border-color: white;
 }
 
 .card__one {
@@ -184,10 +206,6 @@ header img {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    background-color: lightgrey;
     padding: 5%;
 }
 
@@ -196,10 +214,6 @@ header img {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    background-color: lightgrey;
     padding: 5%;
 }
 
@@ -208,10 +222,6 @@ header img {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    background-color: lightgrey;
     padding: 5%;
 }
 
@@ -220,10 +230,6 @@ header img {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    background-color: lightgrey;
     padding: 5%;
 }
 
@@ -232,10 +238,6 @@ header img {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    background-color: lightgrey;
     padding: 5%;
 }
 
@@ -244,10 +246,6 @@ header img {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    background-color: lightgrey;
     padding: 5%;
 }
 
@@ -266,11 +264,11 @@ header img {
 }
 
 .contact h1 {
-    font-size: 5vw;
+    font-size: 10vw;
 }
 
 .footer{
-    background-color: orangered;
+    background-color: coral;
 }
 
 .footer__icons {
@@ -287,6 +285,7 @@ header img {
     display: grid;
     grid-template-areas: "L M R";
     justify-content: space-between;
+    font-size: 15px;
 }
 
 .footer a {
@@ -294,4 +293,8 @@ header img {
     list-style-type: none;
     text-decoration: none;
     font-size: 5vw;
+}
+
+.footer img {
+    max-height: 50px;
 }
