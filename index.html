@@ -18,7 +18,7 @@
             </ul>
         </nav>
         <h1>
-            <a href="#home">Cara<img src="./assets/icon-coloredVase.png">Cara</a>
+            <a href="#home">Cara<img src="./assets/icon-coloredVase.png">Cara<hr class="header__hr"></a>
         </h1>
         <form>
             <input>  cart (0)    
@@ -35,7 +35,7 @@
     </section>
     <a name="about"></a>
     <section class="about">
-        <h1 class="abt__hdr">About Us</h1>
+        <h1 class="abt__hdr">About Us <hr class="about__hr"></h1>
             <div class="abt__set1">
                 <p>At vero eos et accusamus et iusto odio dignissimos ducimus 
                     qui blanditiis praesentium voluptatum deleniti atque corrupti quos 
@@ -63,7 +63,7 @@
     <a name="products"></a>
     </section>
     <section class="products">
-        <h1>Our Products</h1>
+        <h1>Our Products<hr></h1>
         <div class="cards">
             <div class="card__one">
                 <img src="./assets/pot-2bowls.jpg" alt="2bowls">
@@ -128,15 +128,19 @@
         </div>
     </section>
     <section class="contact">
-        <h1>Contact Us</h1>
+        <h1>Contact Us<hr></h1>
         <a name="contact"></a>
-        <form>
-            <input> Email
-        </form>
-        <form class="contact__message">
-            <input> Message
-        </form>
-        <button>Send</button>
+        <div class="contact__form">
+            <form>
+                <div class="contact__email">
+                    <div class="contact__text">Email</div><input class="email__input">
+                </div>
+                <div class="contact__message">
+                    <div class="contact__text">Message</div><input class="message__input">
+                </div>
+            </form>
+            <button class="contact__button">Send</button>
+        </div>
     </section>
     </main>
     <footer class="footer">
